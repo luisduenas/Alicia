@@ -22,6 +22,22 @@ namespace Alicia.UserControls
         public weather()
         {
             this.InitializeComponent();
+            inicializar();
+        }
+        private void inicializar()
+        {
+            try
+            {
+                obtenerClima();
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+        private void obtenerClima()
+        {
         }
     }
 }

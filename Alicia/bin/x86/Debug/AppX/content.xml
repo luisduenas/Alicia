@@ -1,0 +1,11 @@
+﻿<toast launch="app-defined-string">
+  <visual>
+    <binding template="ToastGeneric">
+      <text>Photo Share</text>
+      <text>Andrew sent you a picture</text>
+      <text>See it in full size!</text>
+      <image src="https://unsplash.it/360/180?image=1043" />
+      <image placement="appLogoOverride" src="https://unsplash.it/64?image=883" hint-crop="circle" />
+    </binding>
+  </visual>
+</toast>

@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d76bc517-f59e-4393-95e7-f826958e717c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Luis Dueñas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Alicia.exe">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Alicia.exe">
       <PackagePath>entrypoint\Alicia.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -63,6 +63,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.Toolkit.Uwp.Notifications\1.4.1\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
@@ -334,47 +337,50 @@
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\content.xml">
+      <PackagePath>content.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Alicia.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Alicia.xr.xml">
       <PackagePath>Alicia.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Core\Alicia.exe">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Core\Alicia.exe">
       <PackagePath>Alicia.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

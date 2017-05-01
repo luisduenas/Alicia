@@ -10,31 +10,31 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d76bc517-f59e-4393-95e7-f826958e717c</PackageIdentityName>
     <PackageIdentityPublisher>CN=Luis Dueñas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>C1796FDC811481A5FF96DB0643847B7C35795F8508402CAEA604538D9FB04C4B</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>d76bc517-f59e-4393-95e7-f826958e717c_1.0.0.0_x86__15hn77p5b2dk8</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>d76bc517-f59e-4393-95e7-f826958e717c_15hn77p5b2dk8!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>d76bc517-f59e-4393-95e7-f826958e717c</RegisteredPackageID>
+    <RegisteredManifestChecksum>468C7580ABA3D269CBAB99745A680BA5F804B0A886CDB1BC4C5B40FDE353D81F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>AliciaSmartMirror_1.0.0.0_x86__15hn77p5b2dk8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>AliciaSmartMirror_15hn77p5b2dk8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>AliciaSmartMirror</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=Luis Dueñas</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-01T02:35:15.753</Modified>
+      <Modified>2017-05-01T03:23:44.414</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Alicia.exe">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Alicia.exe">
       <PackagePath>entrypoint\Alicia.exe</PackagePath>
-      <Modified>2017-05-01T02:35:14.733</Modified>
+      <Modified>2017-05-01T03:23:00.571</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -87,6 +87,10 @@
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.NETCore.Portable.Compatibility\1.0.0\lib\netcore50\System.dll">
       <PackagePath>System.dll</PackagePath>
       <Modified>2015-07-23T06:06:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.Toolkit.Uwp.Notifications\1.4.1\lib\uap10.0\Microsoft.Toolkit.Uwp.Notifications.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.Notifications.dll</PackagePath>
+      <Modified>2017-04-04T23:54:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Dueñas\.nuget\packages\Microsoft.VisualBasic\10.0.0\lib\netcore50\Microsoft.VisualBasic.dll">
       <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
@@ -448,60 +452,64 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2015-07-23T06:11:12.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\content.xml">
+      <PackagePath>content.xml</PackagePath>
+      <Modified>2017-05-01T03:23:41.201</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2017-05-01T01:44:12.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-09-21T01:30:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Alicia.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Alicia.xr.xml">
       <PackagePath>Alicia.xr.xml</PackagePath>
-      <Modified>2017-05-01T02:35:14.421</Modified>
+      <Modified>2017-05-01T03:23:00.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-02-13T10:19:51.683</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-01T02:35:15.410</Modified>
+      <Modified>2017-05-01T03:23:01.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Documents\My Web Sites\Alicia\Alicia\bin\x86\Debug\Core\Alicia.exe">
+    <AppxPackagedFile Include="C:\Users\Luis Dueñas\Alicia%27s Universe\Alicia\Alicia\bin\x86\Debug\Core\Alicia.exe">
       <PackagePath>Alicia.exe</PackagePath>
-      <Modified>2017-05-01T02:35:15.743</Modified>
+      <Modified>2017-05-01T03:23:44.410</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

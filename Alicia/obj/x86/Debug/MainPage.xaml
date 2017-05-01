@@ -35,7 +35,7 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
 
-        <Button x:ConnectionId='4' x:Name="button" Content="HOLA ALE" Background="#33E20D0D" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="80">
+        <Button x:ConnectionId='4' x:Name="btnAlejandra" Content="HOLA ALE" Background="#33E20D0D" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="80">
         </Button>
         <uc:weather></uc:weather>
     </Grid>

@@ -132,17 +132,19 @@ namespace Alicia.Alicia_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[4];
+            _typeNameTable = new string[5];
             _typeNameTable[0] = "Alicia.UserControls.weather";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[2] = "Alicia.MainPage";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[4] = "Alicia.UserControls.toasteEjemplo";
 
-            _typeTable = new global::System.Type[4];
+            _typeTable = new global::System.Type[5];
             _typeTable[0] = typeof(global::Alicia.UserControls.weather);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[2] = typeof(global::Alicia.MainPage);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[4] = typeof(global::Alicia.UserControls.toasteEjemplo);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,6 +181,7 @@ namespace Alicia.Alicia_XamlTypeInfo
 
         private object Activate_0_weather() { return new global::Alicia.UserControls.weather(); }
         private object Activate_2_MainPage() { return new global::Alicia.MainPage(); }
+        private object Activate_4_toasteEjemplo() { return new global::Alicia.UserControls.toasteEjemplo(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -210,6 +213,13 @@ namespace Alicia.Alicia_XamlTypeInfo
 
             case 3:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Alicia.Alicia_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 4:   //  Alicia.UserControls.toasteEjemplo
+                userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_4_toasteEjemplo;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
