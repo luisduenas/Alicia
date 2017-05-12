@@ -105,6 +105,7 @@
     <Compile Include="UserControls\weather.xaml.cs">
       <DependentUpon>weather.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Utilerias\Traductor.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
