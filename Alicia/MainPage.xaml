@@ -37,6 +37,6 @@
 
         <Button x:Name="btnAlejandra" Content="HOLA ALE" Background="#33E20D0D" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="80">
         </Button>
-        <uc:weather></uc:weather>
+        <uc:weather Margin="143,82,159,101"></uc:weather>
     </Grid>
 </Page>
