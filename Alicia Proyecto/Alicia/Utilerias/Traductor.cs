@@ -8,7 +8,7 @@ namespace Alicia.Utilerias
 {
     public class Traductor
     {
-        private string traducirCondicion(string condicion)
+        public string traducirCondicion(string condicion)
         {
             string traduccion = string.Empty;
             switch (condicion)
@@ -60,8 +60,21 @@ namespace Alicia.Utilerias
                 case "isolated thundershowers": return "Tormentas electricas aisladas";
                 default: return string.Empty;
                     
+            }                       
+        }
+        public string traducirDia(string dia)
+        {
+            switch (dia)
+            {
+                case "Mon": return "Lunes";
+                case "Tue": return "Martes";
+                case "Wed": return "Miercoles";
+                case "Thu": return "Jueves";
+                case "Fri": return "Viernes";
+                case "Sat": return "Sabado";
+                case "Sun": return "Domingo";
+                default: return string.Empty;
             }
-            
         }
     }
 }
