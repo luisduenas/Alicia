@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Alicia.Utilerias
 {
-    public class Traductor
+    public class Translate
     {
-        public string traducirCondicion(string condicion)
+        public string translateCondition(string condition)
         {
             string traduccion = string.Empty;
-            switch (condicion)
+            switch (condition)
             {
                 case "tornado": return "Tornado";
                 case "tropical storm": return "Tormenta tropical";
@@ -62,9 +62,9 @@ namespace Alicia.Utilerias
                     
             }                       
         }
-        public string traducirDia(string dia)
+        public string translateDay(string day)
         {
-            switch (dia)
+            switch (day)
             {
                 case "Mon": return "Lunes";
                 case "Tue": return "Martes";
