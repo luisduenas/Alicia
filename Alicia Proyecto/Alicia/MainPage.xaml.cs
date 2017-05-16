@@ -22,11 +22,11 @@ namespace Alicia
         public MainPage()
         {
             this.InitializeComponent();
-            string xmlText = File.ReadAllText("content.xml");
-            XmlDocument xmlContent = new XmlDocument();
-            xmlContent.LoadXml(xmlText);
-            ToastNotification notification = new ToastNotification(xmlContent);
-            ToastNotificationManager.CreateToastNotifier().Show(notification);
+            //string xmlText = File.ReadAllText("content.xml");
+            //XmlDocument xmlContent = new XmlDocument();
+            //xmlContent.LoadXml(xmlText);
+            //ToastNotification notification = new ToastNotification(xmlContent);
+            //ToastNotificationManager.CreateToastNotifier().Show(notification);
         }
 
     }

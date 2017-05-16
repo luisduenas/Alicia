@@ -132,19 +132,21 @@ namespace Alicia.Alicia_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
-            _typeNameTable[0] = "Alicia.UserControls.weather";
+            _typeNameTable = new string[6];
+            _typeNameTable[0] = "Alicia.UserControls.Clock";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[2] = "Alicia.MainPage";
-            _typeNameTable[3] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[4] = "Alicia.UserControls.toasteEjemplo";
+            _typeNameTable[2] = "Alicia.UserControls.weather";
+            _typeNameTable[3] = "Alicia.MainPage";
+            _typeNameTable[4] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[5] = "Alicia.UserControls.toasteEjemplo";
 
-            _typeTable = new global::System.Type[5];
-            _typeTable[0] = typeof(global::Alicia.UserControls.weather);
+            _typeTable = new global::System.Type[6];
+            _typeTable[0] = typeof(global::Alicia.UserControls.Clock);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[2] = typeof(global::Alicia.MainPage);
-            _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[4] = typeof(global::Alicia.UserControls.toasteEjemplo);
+            _typeTable[2] = typeof(global::Alicia.UserControls.weather);
+            _typeTable[3] = typeof(global::Alicia.MainPage);
+            _typeTable[4] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[5] = typeof(global::Alicia.UserControls.toasteEjemplo);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -179,9 +181,10 @@ namespace Alicia.Alicia_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_weather() { return new global::Alicia.UserControls.weather(); }
-        private object Activate_2_MainPage() { return new global::Alicia.MainPage(); }
-        private object Activate_4_toasteEjemplo() { return new global::Alicia.UserControls.toasteEjemplo(); }
+        private object Activate_0_Clock() { return new global::Alicia.UserControls.Clock(); }
+        private object Activate_2_weather() { return new global::Alicia.UserControls.weather(); }
+        private object Activate_3_MainPage() { return new global::Alicia.MainPage(); }
+        private object Activate_5_toasteEjemplo() { return new global::Alicia.UserControls.toasteEjemplo(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -193,9 +196,9 @@ namespace Alicia.Alicia_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  Alicia.UserControls.weather
+            case 0:   //  Alicia.UserControls.Clock
                 userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_0_weather;
+                userType.Activator = Activate_0_Clock;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -204,20 +207,27 @@ namespace Alicia.Alicia_XamlTypeInfo
                 xamlType = new global::Alicia.Alicia_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Alicia.MainPage
-                userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_MainPage;
+            case 2:   //  Alicia.UserControls.weather
+                userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
+                userType.Activator = Activate_2_weather;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 3:   //  Windows.UI.Xaml.Controls.Page
+            case 3:   //  Alicia.MainPage
+                userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::Alicia.Alicia_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 4:   //  Alicia.UserControls.toasteEjemplo
+            case 5:   //  Alicia.UserControls.toasteEjemplo
                 userType = new global::Alicia.Alicia_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.UserControl"));
-                userType.Activator = Activate_4_toasteEjemplo;
+                userType.Activator = Activate_5_toasteEjemplo;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;

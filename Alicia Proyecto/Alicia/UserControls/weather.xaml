@@ -13,55 +13,74 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
+
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height=".3*"></RowDefinition>
                     <RowDefinition Height=".7*"></RowDefinition>
                 </Grid.RowDefinitions>
 
-                <TextBlock x:Name="tBCiudad" Margin="0" TextWrapping="Wrap" Text="Alaska" Grid.Column="1" Foreground="#FF289DB6" FontSize="21" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                <TextBlock x:Name="tBTemperaturaActual" Margin="0" TextWrapping="Wrap" Text="00*" FontSize="60" Foreground="#FF2BB9D8" RenderTransformOrigin="0.496,0.538" SelectionChanged="tBTemperaturaActual_SelectionChanged" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock x:Name="tBCiudad" Margin="0" TextWrapping="Wrap" Text="Alaska" Grid.Column="2" Foreground="#FF289DB6" FontSize="21" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                <TextBlock x:Name="tBTemperaturaActual" Margin="0" TextWrapping="Wrap" Text="00*" FontSize="60" Foreground="#FF2BB9D8" RenderTransformOrigin="0.496,0.538" SelectionChanged="tBTemperaturaActual_SelectionChanged" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 <Grid Grid.RowSpan="2" HorizontalAlignment="Right" Margin="0,0,20,0">
                     <Grid.RowDefinitions>
                         <RowDefinition Height=".8*"></RowDefinition>
                         <RowDefinition Height=".2*"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <Button x:Name="btnImagen" HorizontalAlignment="Stretch" Margin="0" Grid.Row="0" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                    <Button x:Name="btnImagen" HorizontalAlignment="Stretch" Margin="0" Grid.Row="0" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Width="50" Height="50" Grid.Column="1">
                         <Button.Background>
                             <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/img/Rain-WF1.png"/>
                         </Button.Background>
                     </Button>
-                    <TextBlock x:Name="tB" TextWrapping="Wrap" Text="Lluvioso" Foreground="#FF289DB6" FontSize="20" Grid.Row="1" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="tB" TextWrapping="Wrap" Text="Lluvioso" Foreground="#FF289DB6" FontSize="20" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
                 </Grid>
             </Grid>
-           
         </PivotItem>
         <PivotItem>
             <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
+                    <ColumnDefinition Width=".5*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"></RowDefinition>
                     <RowDefinition Height=".3*"></RowDefinition>
+                    <RowDefinition Height=".3*"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Image x:Name="imgDia1" Margin="10,55,10,120" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="50"/>
-                <Image x:Name="imgDia2" Margin="10,55,10,120" Grid.Column="1" RenderTransformOrigin="0.527,0.534" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Image x:Name="imgDia3" Margin="10,55,10,120" Grid.Column="2" Height="50" Width="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Image x:Name="imgDia4" Margin="10,55,10,120" Grid.Column="3" HorizontalAlignment="Center" VerticalAlignment="Center" Width="50" Height="50"/>
-                <Image x:Name="imgDia5" Margin="10,55,10,120" Grid.Column="4" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <Image x:Name="imgDia6" Margin="10,55,10,120" Grid.Column="5" Width="50" Height="50" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                <TextBlock x:Name="tBTemperaturaDia1" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
-                <TextBlock x:Name="tBTemperaturaDia2" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
-                <TextBlock x:Name="tBTemperaturaDia3" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
-                <TextBlock x:Name="tBTemperaturaDia4" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" Foreground="#FF289DB6" FontSize="20" Width="35"/>
-                <TextBlock x:Name="tBTemperaturaDia5" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="4" Foreground="#FF289DB6" FontSize="20" Width="35"/>
-                <TextBlock x:Name="tBTemperaturaDia6" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="1" Grid.Column="5" Foreground="#FF289DB6" FontSize="20" Width="35"/>
+                <Image x:Name="imgDia1" Margin="0" Width="50" Height="50" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgDia2" Margin="0" Grid.Column="2" RenderTransformOrigin="0.527,0.534" Width="50" Height="50" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgDia3" Margin="0" Grid.Column="4" Height="50" Width="50" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgDia4" Margin="0" Grid.Column="6" Width="50" Height="50" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgDia5" Margin="0" Grid.Column="8" Width="50" Height="50" Grid.ColumnSpan="2"/>
+                <Image x:Name="imgDia6" Margin="0" Grid.Column="10" Width="50" Height="50" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="lDia1" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Column="0" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2" Grid.Row="1"/>
+                <TextBlock x:Name="lDia2" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="lDia3" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Grid.Column="4" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="lDia4" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Grid.Column="6" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="lDia5" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Grid.Column="8" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="lDia6" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" VerticalAlignment="Center" Grid.Row="1" Grid.Column="10" Foreground="#FF2BB9D8" FontSize="20" Width="35" Grid.ColumnSpan="2"/>
+                <TextBlock x:Name="tBMinDia1" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia1" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="1" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMinDia2" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="2" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia2" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="3" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMinDia3" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="4" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia3" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="5" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMinDia4" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="6" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia4" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="7" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMinDia5" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="8" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia5" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="9" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMinDia6" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="10" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
+                <TextBlock x:Name="tBMaxDia6" HorizontalAlignment="Center" Margin="5" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" Grid.Row="2" Grid.Column="11" Foreground="#FF2BB9D8" FontSize="20" Width="35"/>
             </Grid>
         </PivotItem>
     </Pivot>

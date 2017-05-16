@@ -6,9 +6,15 @@ using System.Threading.Tasks;
 
 namespace Alicia.Utilerias
 {
-    public class Translate
+    public class Resource
     {
-        public string translateCondition(string condition)
+        public static double Celcius(double f)
+        {
+            double c = 5.0 / 9.0 * (f - 32.0);
+
+            return Math.Round(c);
+        }
+        public static string translateCondition(string condition)
         {
             string traduccion = string.Empty;
             switch (condition)
@@ -58,11 +64,11 @@ namespace Alicia.Utilerias
                 case "thundershowers": return "Tormentas electricas";
                 case "snow showers": return "Duchas de nieve";
                 case "isolated thundershowers": return "Tormentas electricas aisladas";
-                default: return string.Empty;
-                    
-            }                       
+                default: return condition;
+
+            }
         }
-        public string translateDay(string day)
+        public static string translateDay(string day)
         {
             switch (day)
             {
