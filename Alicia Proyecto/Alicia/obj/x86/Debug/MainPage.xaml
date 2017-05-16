@@ -8,36 +8,21 @@
     xmlns:uc="using:Alicia.UserControls"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="Black">
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='1' x:Name="Devices">
-                <VisualState x:ConnectionId='2' x:Name="Grande">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="1280"/>
-                    </VisualState.StateTriggers>
-                </VisualState>
-                <VisualState x:ConnectionId='3' x:Name="Mediano">
-                    <VisualState.Setters>
-                        <Setter Target="button.(Control.FontSize)" Value="40"/>
-                    </VisualState.Setters>
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="720"/>
-                    </VisualState.StateTriggers>
-                </VisualState>
-            </VisualStateGroup>
+            
         </VisualStateManager.VisualStateGroups>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height=".5*"></RowDefinition>
+            <RowDefinition Height=".5*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-
-        <Button x:ConnectionId='4' x:Name="btnAlejandra" Content="HOLA ALE" Background="#33E20D0D" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2" FontSize="80">
-        </Button>
-        <uc:weather Margin="143,82,159,101"></uc:weather>
+        <uc:weather HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Column="1" Grid.ColumnSpan="2"></uc:weather>
     </Grid>
 </Page>
 

@@ -89,11 +89,45 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="Connected Services\AliceService\Alicia.AliceService.rss.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AliceService\Alicia.AliceService.Usuario.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AliceService\Alicia.AliceService.WeatherInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService.wsdl" />
+    <None Include="Connected Services\AliceService\SmartMirrorService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\AliceService\SmartMirrorService5.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="project.json" />
+    <None Include="Properties\ServiceReferences.Designer.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\AliceService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -114,6 +148,20 @@
     <None Include="Alicia_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\img\Air-WF1.png" />
+    <Content Include="Assets\img\Cloud sun02-WF1.png" />
+    <Content Include="Assets\img\Rain-WF1.png" />
+    <Content Include="Assets\img\storm -WF1.png" />
+    <Content Include="Assets\img\sun -WF1.png" />
+    <Content Include="Assets\img\sun -WF2.png" />
+    <Content Include="Assets\img\Weather sun -WF1.png" />
+    <None Include="Connected Services\AliceService\SmartMirrorService.disco" />
+    <None Include="Connected Services\AliceService\configuration91.svcinfo" />
+    <None Include="Connected Services\AliceService\configuration.svcinfo" />
+    <None Include="Connected Services\AliceService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
     <Content Include="content.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -141,6 +189,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\AliceService\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

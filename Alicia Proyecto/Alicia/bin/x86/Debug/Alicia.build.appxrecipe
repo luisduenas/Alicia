@@ -373,11 +373,26 @@
     <AppxPackagedFile Include="C:\Users\aale\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\content.xml">
-      <PackagePath>content.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\Air-WF1.png">
+      <PackagePath>Assets\img\Air-WF1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\Cloud sun02-WF1.png">
+      <PackagePath>Assets\img\Cloud sun02-WF1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\Rain-WF1.png">
+      <PackagePath>Assets\img\Rain-WF1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\storm -WF1.png">
+      <PackagePath>Assets\img\storm -WF1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\sun -WF1.png">
+      <PackagePath>Assets\img\sun -WF1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\sun -WF2.png">
+      <PackagePath>Assets\img\sun -WF2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\img\Weather sun -WF1.png">
+      <PackagePath>Assets\img\Weather sun -WF1.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -405,6 +420,12 @@
     <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\content.xml">
+      <PackagePath>content.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aale\Documents\Wp\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\Alicia.xr.xml">
       <PackagePath>Alicia.xr.xml</PackagePath>
