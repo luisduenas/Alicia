@@ -337,26 +337,26 @@
     <AppxPackagedFile Include="C:\Users\Luis Duenas\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\Air-WF1.png">
-      <PackagePath>Assets\img\Air-WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\1.png">
+      <PackagePath>Assets\img\1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\Cloud sun02-WF1.png">
-      <PackagePath>Assets\img\Cloud sun02-WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\2.png">
+      <PackagePath>Assets\img\2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\Rain-WF1.png">
-      <PackagePath>Assets\img\Rain-WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\3.png">
+      <PackagePath>Assets\img\3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\storm -WF1.png">
-      <PackagePath>Assets\img\storm -WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\4.png">
+      <PackagePath>Assets\img\4.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\sun -WF1.png">
-      <PackagePath>Assets\img\sun -WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\5.png">
+      <PackagePath>Assets\img\5.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\sun -WF2.png">
-      <PackagePath>Assets\img\sun -WF2.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\6.png">
+      <PackagePath>Assets\img\6.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\Weather sun -WF1.png">
-      <PackagePath>Assets\img\Weather sun -WF1.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\img\7.png">
+      <PackagePath>Assets\img\7.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

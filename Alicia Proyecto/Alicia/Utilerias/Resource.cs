@@ -19,53 +19,142 @@ namespace Alicia.Utilerias
             string traduccion = string.Empty;
             switch (condition)
             {
-                case "tornado": return "Tornado";
-                case "tropical storm": return "Tormenta tropical";
-                case "hurricane": return "Huracan";
-                case "severe thunderstorms": return "Tormentas electricas severas";
-                case "thunderstorms": return "Tormenta electrica";
-                case "mixed rain and snow": return "Lluvia y nieve";
-                case "mixed rain and sleet": return "Lluvia y granizo";
-                case "mixed snow and sleet": return "Nieve y granizo";
-                case "freezing drizzle": return "Llovizna helada";
-                case "drizzle": return "Llovizna";
-                case "freezing rain": return "Lluvia helada";
-                case "showers": return "Fuertes lluvias";
-                case "snow flurries": return "Copos de nieve";
-                case "light snow showers": return "Duchas de nieve liviana";
-                case "blowing snow": return "Viento con nieve";
-                case "snow": return "Nevado";
-                case "hail": return "Granizo";
-                case "sleet": return "Granizo";
-                case "dust": return "Polvo";
-                case "foggy": return "Brumoso";
-                case "haze": return "Neblina";
-                case "smoky": return "Ahumado";
-                case "blustery": return "Tempestuoso";
-                case "windy": return "Ventoso";
-                case "cold": return "Frio";
-                case "cloudy": return "Nublado";
-                case "mostly cloudy (night)": return "Mayormene Nublado";
-                case "mostly cloudy (day)": return "Mayormene Nublado";
-                case "partly cloudy (night)": return "Parcialmente Nublado";
-                case "partly cloudy (day)": return "Parcialmente Nublado";
-                case "clear (night)": return "Despejado";
-                case "sunny": return "Soleado";
-                case "fair (night)": return "Buen tiempo";
-                case "fair (day)": return "Buen tiempo";
-                case "mixed rain and hail": return "Lluvia y granizo";
-                case "hot": return "Caliente";
-                case "isolated thunderstorms": return "Tormentas electrricas aisladas";
-                case "scattered thunderstorms": return "Tormentas electricas dispersas";
-                case "scattered showers": return "Fuertes lluvias dispersas";
-                case "heavy snow": return "Fuertes nevadas";
-                case "scattered snow showers": return "Nieve dispersa";
-                case "partly cloudy": return "Parcialmente nublado";
-                case "thundershowers": return "Tormentas electricas";
-                case "snow showers": return "Duchas de nieve";
-                case "isolated thundershowers": return "Tormentas electricas aisladas";
+                case "tornado":
+                    App.linkImage = 0;
+                    return "Tornado";
+                case "tropical storm":
+                    App.linkImage = 0;
+                    return "Tormenta tropical";
+                case "hurricane":
+                    App.linkImage = 0;
+                    return "Huracan";
+                case "severe thunderstorms":
+                    App.linkImage = 0;
+                    return "Tormentas electricas severas";
+                case "thunderstorms":
+                    App.linkImage = 0;
+                    return "Tormenta electrica";
+                case "mixed rain and snow":
+                    App.linkImage = 0;
+                    return "Lluvia y nieve";
+                case "mixed rain and sleet":
+                    App.linkImage = 0;
+                    return "Lluvia y granizo";
+                case "mixed snow and sleet":
+                    App.linkImage = 0;
+                    return "Nieve y granizo";
+                case "freezing drizzle":
+                    App.linkImage = 0;
+                    return "Llovizna helada";
+                case "drizzle":
+                    App.linkImage = 0;
+                    return "Llovizna";
+                case "freezing rain":
+                    App.linkImage = 0;
+                    return "Lluvia helada";
+                case "showers":
+                    App.linkImage = 0;
+                    return "Fuertes lluvias";
+                case "snow flurries":
+                    App.linkImage = 0;
+                    return "Copos de nieve";
+                case "light snow showers":
+                    App.linkImage = 0;
+                    return "Duchas de nieve liviana";
+                case "blowing snow":
+                    App.linkImage = 0;
+                    return "Viento con nieve";
+                case "snow":
+                    App.linkImage = 0;
+                    return "Nevado";
+                case "hail":
+                    App.linkImage = 0;
+                    return "Granizo";
+                case "sleet":
+                    App.linkImage = 0;
+                    return "Granizo";
+                case "dust":
+                    App.linkImage = 0;
+                    return "Polvo";
+                case "foggy":
+                    App.linkImage = 0;
+                    return "Brumoso";
+                case "haze":
+                    App.linkImage = 0;
+                    return "Neblina";
+                case "smoky":
+                    App.linkImage = 0;
+                    return "Ahumado";
+                case "blustery":
+                    App.linkImage = 0;
+                    return "Tempestuoso";
+                case "windy":
+                    App.linkImage = 0;
+                    return "Ventoso";
+                case "cold":
+                    App.linkImage = 0;
+                    return "Frio";
+                case "cloudy":
+                    App.linkImage = 0;
+                    return "Nublado";
+                case "mostly cloudy (night)":
+                    App.linkImage = 0;
+                    return "Mayormene Nublado";
+                case "mostly cloudy (day)":
+                    App.linkImage = 0;
+                    return "Mayormene Nublado";
+                case "partly cloudy (night)":
+                    App.linkImage = 0;
+                    return "Parcialmente Nublado";
+                case "partly cloudy (day)":
+                    App.linkImage = 0;
+                    return "Parcialmente Nublado";
+                case "clear (night)":
+                    App.linkImage = 0;
+                    return "Despejado";
+                case "sunny":
+                    App.linkImage = 1;
+                    return "Soleado";
+                case "fair (night)":
+                    App.linkImage = 0;
+                    return "Buen tiempo";
+                case "fair (day)":
+                    App.linkImage = 0;
+                    return "Buen tiempo";
+                case "mixed rain and hail":
+                    App.linkImage = 0;
+                    return "Lluvia y granizo";
+                case "hot":
+                    App.linkImage = 0;
+                    return "Caliente";
+                case "isolated thunderstorms":
+                    App.linkImage = 0;
+                    return "Tormentas electrricas aisladas";
+                case "scattered thunderstorms":
+                    App.linkImage = 0;
+                    return "Tormentas electricas dispersas";
+                case "scattered showers":
+                    App.linkImage = 0;
+                    return "Fuertes lluvias dispersas";
+                case "heavy snow":
+                    App.linkImage = 0;
+                    return "Fuertes nevadas";
+                case "scattered snow showers":
+                    App.linkImage = 0;
+                    return "Nieve dispersa";
+                case "partly cloudy":
+                    App.linkImage = 0;
+                    return "Parcialmente nublado";
+                case "thundershowers":
+                    App.linkImage = 0;
+                    return "Tormentas electricas";
+                case "snow showers":
+                    App.linkImage = 0;
+                    return "Duchas de nieve";
+                case "isolated thundershowers":
+                    App.linkImage = 0;
+                    return "Tormentas electricas aisladas";
                 default: return condition;
-
             }
         }
         public static string translateDay(string day)

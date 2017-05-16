@@ -151,13 +151,6 @@
     <None Include="Alicia_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\img\Air-WF1.png" />
-    <Content Include="Assets\img\Cloud sun02-WF1.png" />
-    <Content Include="Assets\img\Rain-WF1.png" />
-    <Content Include="Assets\img\storm -WF1.png" />
-    <Content Include="Assets\img\sun -WF1.png" />
-    <Content Include="Assets\img\sun -WF2.png" />
-    <Content Include="Assets\img\Weather sun -WF1.png" />
     <None Include="Connected Services\AliceService\SmartMirrorService.disco" />
     <None Include="Connected Services\AliceService\configuration91.svcinfo" />
     <None Include="Connected Services\AliceService\configuration.svcinfo" />
@@ -165,6 +158,13 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+    <Content Include="Assets\img\1.png" />
+    <Content Include="Assets\img\2.png" />
+    <Content Include="Assets\img\3.png" />
+    <Content Include="Assets\img\4.png" />
+    <Content Include="Assets\img\5.png" />
+    <Content Include="Assets\img\6.png" />
+    <Content Include="Assets\img\7.png" />
     <Content Include="content.xml" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -203,6 +203,7 @@
   <ItemGroup>
     <WCFMetadataStorage Include="Connected Services\AliceService\" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

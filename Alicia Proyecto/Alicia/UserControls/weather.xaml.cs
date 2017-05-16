@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 
 // The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
 
@@ -41,22 +43,39 @@ namespace Alicia.UserControls
             tBTemperaturaActual.Text = string.Format("{0}°", temp);
             tB.Text = Resource.translateCondition((weatherInfo.text).ToLower());
             tBCiudad.Text = weatherInfo.location.city;
+            var brush = new ImageBrush();
+            brush.ImageSource = new BitmapImage(new Uri("ms-appx://../Assets/img/" + App.linkImage + ".png", UriKind.Absolute));
+            btnImagen.Background = brush;
             PivotMain.SelectedIndex = 0;
+            cargarPronosticos();
+            TimerSetup();
+        }
+        private void cargarPronosticos()
+        {
+            lDia1.Text = Resource.translateDay(weatherInfo.forecast[1].day);
+            tBMinDia1.Text = string.Format("{0}°",Resource.Celcius(double.Parse(weatherInfo.forecast[1].low.ToString())));
+            tBMaxDia1.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[1].high.ToString())));
+            lDia2.Text = Resource.translateDay(weatherInfo.forecast[2].day);
+            tBMinDia2.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[2].low.ToString())));
+            tBMaxDia2.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[2].high.ToString())));
+            lDia3.Text = Resource.translateDay(weatherInfo.forecast[3].day);
+            tBMinDia3.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[3].low.ToString())));
+            tBMaxDia3.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[3].high.ToString())));
         }
 
-        public void TimerSetup()
+        private void TimerSetup()
         {
             if (dispatcherTimer == null)
             {
                 dispatcherTimer = new DispatcherTimer();
                 dispatcherTimer.Tick += dispatcherTimer_Tick;
-                dispatcherTimer.Interval = new TimeSpan(0, 0, 1);
+                dispatcherTimer.Interval = new TimeSpan(0, 0, 6);
                 dispatcherTimer.Start();
             }
         }
         async void dispatcherTimer_Tick(object sender, object e)
         {
-            //tClock.Text = string.Format("{0:HH:mm:ss}", DateTime.Now);
+            PivotMain.SelectedIndex = PivotMain.SelectedIndex == 0 ? 1 : 0;
         }
     }
 }
