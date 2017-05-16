@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/SmartMirror.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/SmartMirror.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/SmartMirror.Models.Weather" />
+  <xs:complexType name="WeatherInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="forecast" nillable="true" type="tns:ArrayOfForecast" />
+      <xs:element minOccurs="0" name="humidity" type="xs:int" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/SmartMirror.Models.Weather" minOccurs="0" name="location" nillable="true" type="q1:Location" />
+      <xs:element minOccurs="0" name="temp" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="text" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="wind" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="WeatherInfo" nillable="true" type="tns:WeatherInfo" />
+  <xs:complexType name="ArrayOfForecast">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Forecast" nillable="true" type="tns:Forecast" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfForecast" nillable="true" type="tns:ArrayOfForecast" />
+  <xs:complexType name="Forecast">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="date" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="day" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="high" type="xs:int" />
+      <xs:element minOccurs="0" name="low" type="xs:int" />
+      <xs:element minOccurs="0" name="text" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Forecast" nillable="true" type="tns:Forecast" />
+</xs:schema>

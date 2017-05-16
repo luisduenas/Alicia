@@ -15,13 +15,26 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height=".3*"></RowDefinition>
+                    <RowDefinition Height=".7*"></RowDefinition>
                 </Grid.RowDefinitions>
-                <Image x:ConnectionId='14' x:Name="imgTemperaturaActual" Margin="10"/>
-                <TextBlock x:ConnectionId='15' x:Name="tBCiudad" HorizontalAlignment="Center" Margin="42.75,10,33.875,93.875" TextWrapping="Wrap" Text="Alaska" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF289DB6" FontSize="21"/>
-                <TextBlock x:ConnectionId='16' x:Name="tBTemperaturaActual" HorizontalAlignment="Center" Margin="44.75,33,9.875,38.875" TextWrapping="Wrap" Text="00*" VerticalAlignment="Center" FontSize="60" Foreground="#FF2BB9D8" Width="106" RenderTransformOrigin="0.496,0.538"                                                         Height="70" Grid.Column="1"/>
-                <TextBlock x:ConnectionId='17' x:Name="tB" HorizontalAlignment="Center" Margin="46.75,116,40.875,1.875" TextWrapping="Wrap" Text="Lluvioso" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF289DB6" FontSize="20" Width="73" Height="24"/>
+
+                <TextBlock x:ConnectionId='14' x:Name="tBCiudad" Margin="0" TextWrapping="Wrap" Text="Alaska" Grid.Column="1" Foreground="#FF289DB6" FontSize="21" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <TextBlock x:ConnectionId='15' x:Name="tBTemperaturaActual" Margin="0" TextWrapping="Wrap" Text="00*" FontSize="60" Foreground="#FF2BB9D8" RenderTransformOrigin="0.496,0.538"                                                         Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Grid Grid.RowSpan="2" HorizontalAlignment="Right" Margin="0,0,20,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height=".8*"></RowDefinition>
+                        <RowDefinition Height=".2*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Button x:ConnectionId='16' x:Name="btnImagen" HorizontalAlignment="Stretch" Margin="0" Grid.Row="0" VerticalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+                        <Button.Background>
+                            <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/img/Rain-WF1.png"/>
+                        </Button.Background>
+                    </Button>
+                    <TextBlock x:ConnectionId='17' x:Name="tB" TextWrapping="Wrap" Text="Lluvioso" Foreground="#FF289DB6" FontSize="20" Grid.Row="1" HorizontalAlignment="Center"/>
+                </Grid>
             </Grid>
+           
         </PivotItem>
         <PivotItem>
             <Grid Grid.ColumnSpan="2" Grid.RowSpan="2">
