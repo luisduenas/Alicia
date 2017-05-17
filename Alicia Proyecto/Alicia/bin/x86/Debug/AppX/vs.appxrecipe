@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-16T20:39:50.879</Modified>
+      <Modified>2017-05-16T23:49:01.541</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\Alicia.exe">
       <PackagePath>entrypoint\Alicia.exe</PackagePath>
-      <Modified>2017-05-16T20:39:50.516</Modified>
+      <Modified>2017-05-16T23:49:00.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Duenas\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -524,7 +524,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\Alicia.xr.xml">
       <PackagePath>Alicia.xr.xml</PackagePath>
-      <Modified>2017-05-16T20:20:41.031</Modified>
+      <Modified>2017-05-16T23:44:08.797</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -533,11 +533,11 @@
     <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-16T20:39:23.026</Modified>
+      <Modified>2017-05-16T23:49:01.316</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\Core\Alicia.exe">
       <PackagePath>Alicia.exe</PackagePath>
-      <Modified>2017-05-16T20:39:50.873</Modified>
+      <Modified>2017-05-16T23:49:01.535</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

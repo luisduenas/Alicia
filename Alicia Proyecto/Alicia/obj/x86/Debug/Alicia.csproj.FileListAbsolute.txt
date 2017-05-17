@@ -835,3 +835,8 @@ C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserC
 C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\Clock.g.cs
 C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\Clock.xaml
 C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\Clock.xbf
+C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\frases.g.i.cs
+C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\frases.g.cs
+C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\frases.xaml
+C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\obj\x86\Debug\UserControls\frases.xbf
+C:\Users\Luis Duenas\Documents\Alicia\Alicia Proyecto\Alicia\bin\x86\Debug\UserControls\frases.xbf

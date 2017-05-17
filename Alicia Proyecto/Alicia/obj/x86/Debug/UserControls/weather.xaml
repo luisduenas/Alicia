@@ -32,7 +32,7 @@
                             <ImageBrush Stretch="Uniform" ImageSource="ms-appx:///Assets/img/Rain-WF1.png"/>
                         </Button.Background>
                     </Button>
-                    <TextBlock x:ConnectionId='23' x:Name="tB" TextWrapping="Wrap" Text="Lluvioso" Foreground="#FF289DB6" FontSize="20" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    <TextBlock x:ConnectionId='23' x:Name="tB" TextWrapping="Wrap" Text="Lluvioso" Foreground="#FF289DB6" FontSize="20" Grid.Row="1" HorizontalAlignment="Center"/>
                 </Grid>
             </Grid>
         </PivotItem>

@@ -13,16 +13,19 @@
             
         </VisualStateManager.VisualStateGroups>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
+            <ColumnDefinition Width=".5*"></ColumnDefinition>
             <ColumnDefinition Width=".6*"></ColumnDefinition>
             <ColumnDefinition Width=".4*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height=".5*"></RowDefinition>
             <RowDefinition Height=".5*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height=".5*"></RowDefinition>
+            <RowDefinition Height=".5*"></RowDefinition>
         </Grid.RowDefinitions>
         <uc:Clock Margin="20,0,0,0"></uc:Clock>
-        <uc:weather HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Column="2"/>
+        <uc:weather HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Grid.Column="3"/>
+        <uc:frases Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="2"></uc:frases>
     </Grid>
 </Page>

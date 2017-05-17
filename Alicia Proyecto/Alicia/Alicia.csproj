@@ -136,6 +136,9 @@
     <Compile Include="UserControls\Clock.xaml.cs">
       <DependentUpon>Clock.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\frases.xaml.cs">
+      <DependentUpon>frases.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\toasteEjemplo.xaml.cs">
       <DependentUpon>toasteEjemplo.xaml</DependentUpon>
     </Compile>
@@ -185,6 +188,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="UserControls\Clock.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\frases.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

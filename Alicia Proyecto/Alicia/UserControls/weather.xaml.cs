@@ -55,12 +55,19 @@ namespace Alicia.UserControls
             lDia1.Text = Resource.translateDay(weatherInfo.forecast[1].day);
             tBMinDia1.Text = string.Format("{0}°",Resource.Celcius(double.Parse(weatherInfo.forecast[1].low.ToString())));
             tBMaxDia1.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[1].high.ToString())));
+            Resource.translateCondition(weatherInfo.forecast[1].text);
+            imgDia1.Source = new BitmapImage(new Uri("ms-appx://../Assets/img/" + App.linkImage + ".png", UriKind.Absolute));
             lDia2.Text = Resource.translateDay(weatherInfo.forecast[2].day);
             tBMinDia2.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[2].low.ToString())));
             tBMaxDia2.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[2].high.ToString())));
+            Resource.translateCondition(weatherInfo.forecast[2].text);
+            imgDia2.Source = new BitmapImage(new Uri("ms-appx://../Assets/img/" + App.linkImage + ".png", UriKind.Absolute));
             lDia3.Text = Resource.translateDay(weatherInfo.forecast[3].day);
             tBMinDia3.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[3].low.ToString())));
             tBMaxDia3.Text = string.Format("{0}°", Resource.Celcius(double.Parse(weatherInfo.forecast[3].high.ToString())));
+            Resource.translateCondition(weatherInfo.forecast[3].text);
+            imgDia3.Source = new BitmapImage(new Uri("ms-appx://../Assets/img/" + App.linkImage + ".png", UriKind.Absolute));
+
         }
 
         private void TimerSetup()
