@@ -19,7 +19,8 @@ namespace Alicia.UserControls
 {
     public sealed partial class frases : UserControl
     {
-        DispatcherTimer dispatcherTimer;
+        DispatcherTimer dispatcherTimerCollapsed;
+        DispatcherTimer dispatcherTimerVisible;
         Storyboard fadeOut, fadeIn;
 
 
@@ -49,16 +50,31 @@ namespace Alicia.UserControls
         }
         private void TimerSetup()
         {
-            if (dispatcherTimer == null)
+            if (dispatcherTimerCollapsed == null)
             {
-                dispatcherTimer = new DispatcherTimer();
-                dispatcherTimer.Tick += dispatcherTimer_Tick;
-                dispatcherTimer.Interval = new TimeSpan(0, 0, 50);
-                dispatcherTimer.Start();
+                dispatcherTimerCollapsed = new DispatcherTimer();
+                dispatcherTimerCollapsed.Tick += dispatcherTimerCollapsed_Tick;
+                dispatcherTimerCollapsed.Interval = new TimeSpan(0, 0, 20);
+            }
+            if (dispatcherTimerVisible == null)
+            {
+                dispatcherTimerVisible = new DispatcherTimer();
+                dispatcherTimerVisible.Tick += dispatcherTimerVisible_Tick;
+                dispatcherTimerVisible.Interval = new TimeSpan(0, 0, 10);
+                dispatcherTimerVisible.Start();
             }
         }
-        async void dispatcherTimer_Tick(object sender, object e)
+        async void dispatcherTimerCollapsed_Tick(object sender, object e)
         {
+            if (fadeIn != null)
+            {
+                fadeIn.Begin();
+                fadeIn.Completed += FadeIn_Completed;
+            }
+        }
+        async void dispatcherTimerVisible_Tick(object sender, object e)
+        {
+
             if (fadeOut != null)
             {
                 fadeOut.Completed += FadeOut_Completed;
@@ -69,18 +85,20 @@ namespace Alicia.UserControls
         private void FadeOut_Completed(object sender, object e)
         {
             tbFrase.Opacity = 0;
+            dispatcherTimerCollapsed.Start();
+            dispatcherTimerVisible.Stop();
             actualizaFrase();
         }
         private void actualizaFrase()
         {
             tbFrase.Text = "NUEVO TEXTO";
-            fadeIn.Begin();
-            fadeIn.Completed += FadeIn_Completed;
         }
 
         private void FadeIn_Completed(object sender, object e)
         {
             tbFrase.Opacity = 1;
+            dispatcherTimerVisible.Start();
+            dispatcherTimerCollapsed.Stop();
         }
     }
 }

@@ -14,8 +14,8 @@
       <RootProperty Name="Children" />
       <RootProperty Name="Name" />
       <RootProperty Name="Resources" />
-      <RootProperty Name="Padding" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Padding" />
       <RootProperty Name="Margin" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
@@ -41,8 +41,12 @@
     <RootType FullName="Alicia.UserControls.weather">
       <RootProperty Name="HorizontalContentAlignment" />
       <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Alicia.UserControls.frases" />
+    <RootType FullName="Alicia.UserControls.News">
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="Alicia.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
@@ -74,7 +78,6 @@
       <RootProperty Name="EasingFunction" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.CubicEase" />
-    <RootType FullName="Alicia.UserControls.toasteEjemplo" />
     <RootType FullName="Windows.UI.Xaml.Controls.Pivot">
       <RootProperty Name="Name" />
       <RootProperty Name="Items" />
@@ -82,6 +85,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Alicia.UserControls.toasteEjemplo" />
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Margin" />
       <RootProperty Name="Width" />

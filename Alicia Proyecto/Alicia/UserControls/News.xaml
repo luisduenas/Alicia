@@ -10,13 +10,28 @@
     d:DesignWidth="400">
     <Pivot Name="PivotMain">
         <PivotItem>
-            <Grid>
-                <TextBlock Name ="tBNew1" FontSize="45" Text ="Esta es una noticia."/>
+            <Grid HorizontalAlignment="Center">
+                <TextBlock Name ="tBNew1" FontSize="45" Foreground="#FF289DB6" HorizontalAlignment="Center"/>
             </Grid>
         </PivotItem>
         <PivotItem>
             <Grid>
-                <TextBlock Name ="tBNew2"/>
+                <TextBlock Name ="tBNew2" FontSize="45" Foreground="#FF289DB6" HorizontalAlignment="Center"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem>
+            <Grid>
+                <TextBlock Name ="tBNew3" FontSize="45" Foreground="#FF289DB6" HorizontalAlignment="Center"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem>
+            <Grid HorizontalAlignment="Center">
+                <TextBlock Name ="tBNew4" FontSize="45" Foreground="#FF289DB6" HorizontalAlignment="Center"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem>
+            <Grid>
+                <TextBlock Name ="tBNew5" FontSize="45" Foreground="#FF289DB6" HorizontalAlignment="Center"/>
             </Grid>
         </PivotItem>
     </Pivot>
