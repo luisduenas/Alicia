@@ -109,8 +109,8 @@ namespace Alicia.Utilerias
                 case "partly cloudy (day)":
                     App.linkImage = 4;
                     return "Parcialmente Nublado";
-                case "clear (night)":
-                    App.linkImage = 1;
+                case "clear":
+                    App.linkImage = 8;
                     return "Despejado";
                 case "sunny":
                     App.linkImage = 1;

@@ -20,16 +20,32 @@ namespace Alicia.UserControls
     public sealed partial class frases : UserControl
     {
         DispatcherTimer dispatcherTimer;
+        Storyboard fadeOut, fadeIn;
+
 
         public frases()
         {
             this.InitializeComponent();
+            fadeIn = mainGrid.Resources["FadeInStoryboard"] as Storyboard;
+            fadeOut = mainGrid.Resources["FadeOutStoryboard"] as Storyboard;
             cargarFrases();
+            tbFrase.SelectionChanged += TbFrase_SelectionChanged;
         }
+
+        private void TbFrase_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         private void cargarFrases()
         {
             TimerSetup();
+            tbFrase.Text = "FRASES";
 
+            if (fadeIn != null)
+            {
+                fadeIn.Begin();
+            }
         }
         private void TimerSetup()
         {
@@ -37,24 +53,34 @@ namespace Alicia.UserControls
             {
                 dispatcherTimer = new DispatcherTimer();
                 dispatcherTimer.Tick += dispatcherTimer_Tick;
-                dispatcherTimer.Interval = new TimeSpan(0, 0, 10);
+                dispatcherTimer.Interval = new TimeSpan(0, 0, 50);
                 dispatcherTimer.Start();
             }
         }
         async void dispatcherTimer_Tick(object sender, object e)
         {
-            var fadeOut = mainGrid.Resources["FadeOutStoryboard"] as Storyboard;
-            var fadeIn = mainGrid.Resources["FadeInStoryboard"] as Storyboard;
-
-            if (fadeIn != null)
-            {
-                
-            }
             if (fadeOut != null)
             {
+                fadeOut.Completed += FadeOut_Completed;
                 fadeOut.Begin();
             }
+        }
 
+        private void FadeOut_Completed(object sender, object e)
+        {
+            tbFrase.Opacity = 0;
+            actualizaFrase();
+        }
+        private void actualizaFrase()
+        {
+            tbFrase.Text = "NUEVO TEXTO";
+            fadeIn.Begin();
+            fadeIn.Completed += FadeIn_Completed;
+        }
+
+        private void FadeIn_Completed(object sender, object e)
+        {
+            tbFrase.Opacity = 1;
         }
     }
 }
