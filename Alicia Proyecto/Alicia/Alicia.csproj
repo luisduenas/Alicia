@@ -139,6 +139,9 @@
     <Compile Include="UserControls\frases.xaml.cs">
       <DependentUpon>frases.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\News.xaml.cs">
+      <DependentUpon>News.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\toasteEjemplo.xaml.cs">
       <DependentUpon>toasteEjemplo.xaml</DependentUpon>
     </Compile>
@@ -193,6 +196,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControls\frases.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\News.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
