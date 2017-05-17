@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6892929e-03b4-4e4a-9b77-9333e0c7e826" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SmartMirrorService.xsd" MetadataType="Schema" ID="309b1b8c-d117-4554-8b1f-3cf6ad0fa4ad" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd0" />
+    <MetadataFile FileName="SmartMirrorService1.xsd" MetadataType="Schema" ID="641f91f7-5cf6-44aa-83a6-becc94a8611e" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd4" />
+    <MetadataFile FileName="SmartMirrorService.disco" MetadataType="Disco" ID="25ead288-ace2-43be-ae13-5f0a8537a3cf" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?disco" />
+    <MetadataFile FileName="SmartMirrorService2.xsd" MetadataType="Schema" ID="f845c9da-3f84-4feb-93eb-f36a178ae3cf" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd3" />
+    <MetadataFile FileName="SmartMirrorService.wsdl" MetadataType="Wsdl" ID="4d6db685-64b5-4702-9181-7e90e3472fb2" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?wsdl" />
+    <MetadataFile FileName="SmartMirrorService3.xsd" MetadataType="Schema" ID="b136da35-1c4c-450e-8b6a-f651b09b52ca" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SmartMirrorService4.xsd" MetadataType="Schema" ID="d9b00b93-b298-42a4-9c9e-a04ceacaf7fc" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd5" />
+    <MetadataFile FileName="SmartMirrorService5.xsd" MetadataType="Schema" ID="5db5a57e-11a0-4259-89a5-93d2f6185e77" SourceId="1" SourceUrl="http://luisduenas-001-site1.ctempurl.com/SmartMirrorService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
